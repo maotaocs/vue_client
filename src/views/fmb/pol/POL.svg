@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2178 1021" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="MODULE-RW2F-GROUP">
+        <path d="M2149.152,91.926L1633.08,86.688L39.36,86.688L39.36,977.399L1611.53,977.399L1611.53,977.481L2157.187,977.481L2157.187,543.854L2149.152,91.926ZM2127.833,108.771L1780.738,108.771L2127.833,355.371L2127.833,108.771Z" style="fill:#1a2a4a;stroke:#4a6fa5;stroke-width:3px;"/>
+        <g transform="matrix(1,0,0,1,-690.494,-403.0125)">
+            <rect x="1337.85" y="839.821" width="222.381" height="116.808" class="device-rect" data-device="PCB-WELD" style="fill:#52c41a;stroke:#3db811;stroke-width:2px;"/>
+            <g transform="matrix(1,0,0,1,1398.13,905.977)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;fill:#ffffff;">PCB</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1447.48,905.977)">
+                <text x="0px" y="0px" style="font-family:'SimHei', monospace;font-size:24px;fill:#ffffff;">焊接</text>
+            </g>
+        </g>
+        <g>
+            <rect x="145.257" y="448.467" width="166.375" height="93.643" style="fill:none;stroke:#4a6fa5;stroke-width:2px;stroke-miterlimit:1.5;"/>
+            <rect x="145.257" y="448.467" width="166.375" height="93.643" class="device-rect" data-device="BATCH-AGING" style="fill:#52c41a;"/>
+            <g transform="matrix(1,0,0,1,171.623,501.198)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:20.806px;fill:#1a2a4a;">Batch</text>
+            </g>
+            <g transform="matrix(1,0,0,1,229.46,501.198)">
+                <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:20.806px;fill:#1a2a4a;">Aging</text>
+            </g>
+        </g>
+        <g>
+            <rect x="313.164" y="448.441" width="166.394" height="93.543" style="fill:none;stroke:#4a6fa5;stroke-width:2px;stroke-miterlimit:1.5;"/>
+            <rect x="313.164" y="448.441" width="166.394" height="93.543" class="device-rect" data-device="AUTO-CLAVE" style="fill:#52c41a;"/>
+            <g>
+                <g transform="matrix(1,0,0,0.998826,0,0.58831)">
+                    <g transform="matrix(1,0,0,1,346.012,501.116)">
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:20.809px;fill:#1a2a4a;">Auto Clave</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g>
+            <rect x="480.962" y="448.441" width="166.394" height="93.543" style="fill:none;stroke:#4a6fa5;stroke-width:2px;stroke-miterlimit:1.5;"/>
+            <rect x="480.962" y="448.441" width="166.394" height="93.543" class="device-rect" data-device="UV-CURE" style="fill:#52c41a;"/>
+            <g>
+                <g transform="matrix(1,0,0,0.998826,0,0.58831)">
+                    <g transform="matrix(1,0,0,1,548.85,501.116)">
+                        <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:20.809px;fill:#1a2a4a;">UV</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

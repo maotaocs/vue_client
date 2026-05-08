@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2178 1021" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+  <g id="MODULE-RW3F-GROUP">
+    <!-- 主框架 -->
+    <path d="M1633.08,543.854l0,-457.166l-1593.72,0l0,890.711l1572.17,0l0,0.082l545.657,0l0,-433.627l-524.107,0Zm494.753,-435.083l-347.095,0l0,246.6l347.095,0l0,-246.6Z" style="fill:#fff;stroke:#000;stroke-width:1px;"/>
+
+    <!-- 设备区域 -->
+    <g id="设备">
+      <!-- 待LSR区域 -->
+      <g>
+        <rect class="device-rect" data-device="LSR-WAIT" x="1733.07" y="873.811" width="133.035" height="83.896" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1769.53px" y="922.955px" style="font-family:'SimHei', monospace;font-size:20px;">待LSR</text>
+      </g>
+
+      <!-- 待祛除区域 -->
+      <g>
+        <rect class="device-rect" data-device="REMOVE-WAIT" x="1872.57" y="873.815" width="133.035" height="83.896" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1908.49px" y="922.959px" style="font-family:'SimHei', monospace;font-size:20px;">待祛除</text>
+      </g>
+
+      <!-- 破片区域 -->
+      <g>
+        <rect class="device-rect" data-device="BROKEN" x="2012.08" y="873.814" width="133.035" height="83.896" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="2058px" y="922.958px" style="font-family:'SimHei', monospace;font-size:20px;">破片</text>
+      </g>
+
+      <!-- 显微镜 -->
+      <g>
+        <rect class="device-rect" data-device="MIC" x="1618.01" y="872.613" width="97.08" height="83.896" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1636.91px" y="921.273px" style="font-family:'SimHei', monospace;font-size:20px;">显微镜</text>
+      </g>
+
+      <!-- FA分析区域 -->
+      <g>
+        <rect class="device-rect" data-device="FA" x="1638.23" y="544.665" width="222.381" height="116.808" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1708.51px" y="610.821px" style="font-family:'SimHei', monospace;font-size:24px;">FA分析</text>
+      </g>
+
+      <!-- PCB焊接区域 -->
+      <g>
+        <rect class="device-rect" data-device="PCB" x="1337.85" y="839.821" width="222.381" height="116.808" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1398.13px" y="905.977px" style="font-family:'SimHei', monospace;font-size:24px;">PCB焊接</text>
+      </g>
+
+      <!-- 祛除设备 -->
+      <g>
+        <rect class="device-rect" data-device="REMOVE" x="1121.65" y="427.88" width="42.787" height="142.623" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1132.87px" y="499.191px" style="font-family:'SimHei', monospace;font-size:20px;">祛</text>
+        <text x="1132.87px" y="522.005px" style="font-family:'SimHei', monospace;font-size:20px;">除</text>
+      </g>
+
+      <!-- TCP Punching -->
+      <g>
+        <rect class="device-rect" data-device="TCP" x="1006.84" y="428.719" width="113.26" height="52.855" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1043.47px" y="451.37px" style="font-family:'ArialMT', sans-serif;font-size:20px;">TCP Punching</text>
+      </g>
+
+      <!-- ACF Attach -->
+      <g>
+        <rect class="device-rect" data-device="ACF" x="1021.1" y="530.713" width="94.803" height="46.143" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1049.4px" y="550.369px" style="font-family:'ArialMT', sans-serif;font-size:20px;">ACF Attach</text>
+      </g>
+
+      <!-- B/D半自动 -->
+      <g>
+        <rect class="device-rect" data-device="BD-SA" x="724.468" y="448.614" width="138.429" height="93.543" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="739.777px" y="502.548px" style="font-family:'SimHei', monospace;font-size:24px;">B/D半自动</text>
+      </g>
+
+      <!-- B/D手动 -->
+      <g>
+        <rect class="device-rect" data-device="BD-M" x="866.97" y="448.495" width="138.429" height="93.543" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="894.279px" y="502.429px" style="font-family:'SimHei', monospace;font-size:24px;">B/D手动</text>
+      </g>
+
+      <!-- MNT POL贴附 -->
+      <g>
+        <rect class="device-rect" data-device="MNT-POL" x="658.347" y="296.373" width="116.668" height="70.787" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="668.186px" y="340px" style="font-family:'SimHei', monospace;font-size:18px;">MNT POL贴附</text>
+      </g>
+
+      <!-- TV POL贴附 -->
+      <g>
+        <rect class="device-rect" data-device="TV-POL" x="776.524" y="296.494" width="116.668" height="70.787" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="786.363px" y="340px" style="font-family:'SimHei', monospace;font-size:18px;">TV POL贴附</text>
+      </g>
+
+      <!-- 撕POL设备 -->
+      <g>
+        <rect class="device-rect" data-device="TEAR-POL" x="894.579" y="296.496" width="116.668" height="70.787" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="918.905px" y="340px" style="font-family:'SimHei', monospace;font-size:18px;">撕POL设备</text>
+      </g>
+
+      <!-- 办公桌 -->
+      <g>
+        <rect class="device-rect" data-device="DESK" x="552.063" y="879.526" width="191.716" height="65.544" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="611.052px" y="920.334px" style="font-family:'SimHei', monospace;font-size:24px;">办公桌</text>
+      </g>
+
+      <!-- Batch Aging -->
+      <g>
+        <rect class="device-rect" data-device="BA" x="145.257" y="448.467" width="166.375" height="93.643" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="171.623px" y="501.198px" style="font-family:'ArialMT', sans-serif;font-size:20px;">Batch Aging</text>
+      </g>
+
+      <!-- Auto Clave -->
+      <g>
+        <rect class="device-rect" data-device="AC" x="313.164" y="448.441" width="166.394" height="93.543" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="346.012px" y="501.116px" style="font-family:'ArialMT', sans-serif;font-size:20px;">Auto Clave</text>
+      </g>
+
+      <!-- UV固化 -->
+      <g>
+        <rect class="device-rect" data-device="UV" x="480.962" y="448.441" width="166.394" height="93.543" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="548.85px" y="501.116px" style="font-family:'ArialMT', sans-serif;font-size:20px;">UV固化</text>
+      </g>
+
+      <!-- 点灯机PI1 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-PI-1" x="43.37" y="733.776" width="110.114" height="74.458" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="57.509px" y="779.857px" style="font-family:'SimHei', monospace;font-size:20px;">点灯机PI1</text>
+      </g>
+
+      <!-- 点灯机PI2 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-PI-2" x="43.34" y="835.5" width="110.114" height="74.458" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="57.479px" y="881.581px" style="font-family:'SimHei', monospace;font-size:20px;">点灯机PI2</text>
+      </g>
+
+      <!-- 点灯机PI3 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-PI-3" x="197.499" y="835.37" width="110.114" height="74.458" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="211.638px" y="881.45px" style="font-family:'SimHei', monospace;font-size:20px;">点灯机PI3</text>
+      </g>
+
+      <!-- Laser切割 -->
+      <g>
+        <rect class="device-rect" data-device="LSR" x="171.756" y="255.118" width="113.386" height="42.52" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="197.534px" y="285.256px" style="font-family:'ArialMT', sans-serif;font-size:24px;">Laser</text>
+      </g>
+
+      <!-- PPR检测 -->
+      <g>
+        <rect class="device-rect" data-device="PPR" x="309.919" y="255.118" width="113.386" height="42.52" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="341.216px" y="285.256px" style="font-family:'ArialMT', sans-serif;font-size:24px;">PPR检测</text>
+      </g>
+
+      <!-- 修POL膜 -->
+      <g>
+        <rect class="device-rect" data-device="FIX-POL" x="447.627" y="255.118" width="113.386" height="42.52" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="455.035px" y="285.255px" style="font-family:'SimHei', monospace;font-size:18px;">修POL膜</text>
+      </g>
+
+      <!-- 点灯机OC1 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-OC-1" x="1066.76" y="87.747" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1071.22px" y="122px" style="font-family:'SimHei', monospace;font-size:16px;">点灯机OC1</text>
+      </g>
+
+      <!-- 点灯机OC2 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-OC-2" x="1189.09" y="87.694" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1194.58px" y="122px" style="font-family:'SimHei', monospace;font-size:16px;">点灯机OC2</text>
+      </g>
+
+      <!-- 点灯机OC3 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-OC-3" x="1310.15" y="87.697" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1315.54px" y="122px" style="font-family:'SimHei', monospace;font-size:16px;">点灯机OC3</text>
+      </g>
+
+      <!-- 点灯机OC4 -->
+      <g>
+        <rect class="device-rect" data-device="LHT-OC-4" x="1428.91" y="87.795" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1433.53px" y="122px" style="font-family:'SimHei', monospace;font-size:16px;">点灯机OC4</text>
+      </g>
+
+      <!-- TV VI1 -->
+      <g>
+        <rect class="device-rect" data-device="TV-VI-1" x="2012.19" y="287.548" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="2038.98px" y="320px" style="font-family:'ArialMT', sans-serif;font-size:18px;">TV VI1</text>
+      </g>
+
+      <!-- TV VI2 -->
+      <g>
+        <rect class="device-rect" data-device="TV-VI-2" x="1901.68" y="287.361" width="107.717" height="56.693" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="1928.48px" y="320px" style="font-family:'ArialMT', sans-serif;font-size:18px;">TV VI2</text>
+      </g>
+
+      <!-- 黑胶存储区 -->
+      <g>
+        <rect class="device-rect" data-device="BC" x="917.343" y="88.494" width="133.958" height="115.843" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="951.241px" y="155px" style="font-family:'SimHei', monospace;font-size:24px;">黑胶存储区</text>
+      </g>
+
+      <!-- Laser维修OK -->
+      <g>
+        <rect class="device-rect" data-device="LSR-OK" x="341.625" y="87.893" width="87.892" height="83.919" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="344.509px" y="125px" style="font-family:'ArialMT', sans-serif;font-size:14px;">Laser维修OK</text>
+      </g>
+
+      <!-- L/S待维修 -->
+      <g>
+        <rect class="device-rect" data-device="LS" x="445.073" y="88.014" width="87.509" height="83.554" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="446.027px" y="125px" style="font-family:'SimHei', monospace;font-size:14px;">L/S待维修</text>
+      </g>
+
+      <!-- 膜材 -->
+      <g>
+        <rect class="device-rect" data-device="FILM" x="548.045" y="88.019" width="87.495" height="83.541" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="575.361px" y="125px" style="font-family:'SimHei', monospace;font-size:18px;">膜材</text>
+      </g>
+
+      <!-- POL1 -->
+      <g>
+        <rect class="device-rect" data-device="POL1" x="649.824" y="88.017" width="87.495" height="83.541" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="675.187px" y="125px" style="font-family:'ArialMT', sans-serif;font-size:18px;">POL1</text>
+      </g>
+
+      <!-- POL2 -->
+      <g>
+        <rect class="device-rect" data-device="POL2" x="751.127" y="87.911" width="87.793" height="83.825" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="778.324px" y="125px" style="font-family:'ArialMT', sans-serif;font-size:18px;">POL2</text>
+      </g>
+
+      <!-- 办公桌1 -->
+      <g>
+        <rect class="device-rect" data-device="DESK-1" x="59.365" y="87.733" width="99.78" height="49.89" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="72.024px" y="118.321px" style="font-family:'SimHei', monospace;font-size:18px;">办公桌1</text>
+      </g>
+
+      <!-- 办公桌2 -->
+      <g>
+        <rect class="device-rect" data-device="DESK-2" x="199.187" y="87.783" width="99.661" height="49.831" style="fill:none;stroke:#000;stroke-width:2px;"/>
+        <text x="211.831px" y="118.334px" style="font-family:'SimHei', monospace;font-size:18px;">办公桌2</text>
+      </g>
+    </g>
+
+    <!-- 员工图标区域 -->
+    <g id="员工">
+      <!-- 多个员工位置图标... -->
+    </g>
+
+    <!-- 区域背景 -->
+    <g id="区域">
+      <!-- 待FA WIP周转区 -->
+      <g>
+        <rect x="1635.54" y="723.438" width="443.201" height="95.195" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="1635.54" y="723.438" width="443.201" height="95.195" style="fill:#000662;"/>
+        <g>
+          <text x="1762.89px" y="779.497px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">待</text>
+          <text x="1786.89px" y="779.497px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;fill:#fff;">FAWIP</text>
+          <text x="1866.9px" y="779.497px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">周转区</text>
+        </g>
+      </g>
+
+      <!-- 已解析不良屏周转区 -->
+      <g>
+        <rect x="1228.99" y="234.189" width="290.835" height="129.839" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="1228.99" y="234.189" width="290.835" height="129.839" style="fill:#000662;"/>
+        <text x="1274.19px" y="306.069px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">已解析不良屏周转区</text>
+      </g>
+
+      <!-- 待分析WIP周转区 -->
+      <g>
+        <rect x="1229.08" y="417.294" width="290.732" height="129.839" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="1229.08" y="417.294" width="290.732" height="129.839" style="fill:#000662;"/>
+        <text x="1286.87px" y="489.173px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">待分析WIP周转区</text>
+      </g>
+
+      <!-- 尾料放置区 -->
+      <g>
+        <rect x="145.107" y="353.452" width="409.493" height="93.543" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="145.107" y="353.452" width="409.493" height="93.543" style="fill:#000662;"/>
+        <text x="290.379px" y="406.58px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">尾料放置区</text>
+      </g>
+
+      <!-- T-con放置区 -->
+      <g>
+        <rect x="1102.14" y="839.783" width="222.381" height="116.808" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="1102.14" y="839.783" width="222.381" height="116.808" style="fill:#000662;"/>
+        <g>
+          <text x="1145.08px" y="905.938px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;fill:#fff;">T</text>
+          <text x="1158.42px" y="905.938px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;fill:#fff;">-con</text>
+          <text x="1205.11px" y="905.938px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">放置区</text>
+        </g>
+      </g>
+
+      <!-- PCB放置区 -->
+      <g>
+        <rect x="896.195" y="891.031" width="191.716" height="65.544" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="896.195" y="891.031" width="191.716" height="65.544" style="fill:#000662;"/>
+        <g>
+          <text x="933.211px" y="932.52px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;fill:#fff;">PCB</text>
+          <text x="982.56px" y="932.52px" style="font-family:'SimHei', monospace;font-size:24px;fill:#fff;">放置区</text>
+        </g>
+      </g>
+
+      <!-- 风淋门 -->
+      <g>
+        <rect x="5.445" y="428.973" width="115.921" height="145.25" style="fill:none;stroke:#000;stroke-width:2px;stroke-miterlimit:1.5;"/>
+        <rect x="5.445" y="428.973" width="115.921" height="145.25" style="fill:#fff;"/>
+        <text x="8.786px" y="518.471px" style="font-family:'SimHei', monospace;font-size:37.376px;">风淋门</text>
+      </g>
+
+      <!-- 标题 -->
+      <text x="1776.88px" y="104.754px" style="font-family:'SimHei', monospace;font-size:20px;">区域外作业区</text>
+      <text x="33.786px" y="76.618px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:48px;">Rework 3F</text>
+
+      <!-- IDLE区域 -->
+      <g id="MODULE-IDLEAREA">
+        <rect x="1951.45" y="23.662" width="176.469" height="61.919" style="fill:#fff;stroke:#000;stroke-width:1px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        <text x="1989.08px" y="63.116px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:24px;">IDLE</text>
+        <text x="2042.43px" y="63.116px" style="font-family:'SimHei', monospace;font-size:24px;">区域</text>
+      </g>
+    </g>
+  </g>
+</svg>

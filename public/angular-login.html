@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>登录中...</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f5f5f5; }
+    .message { text-align: center; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 400px; }
+    h2 { color: #409EFF; margin: 0 0 10px; }
+    p { color: #666; margin: 0; }
+    .success { color: #67C23A; }
+    .error { color: #F56C6C; }
+    a { color: #409EFF; margin-top: 15px; display: inline-block; }
+  </style>
+</head>
+<body>
+  <div class="message">
+    <h2 id="title">正在登录监控系统...</h2>
+    <p id="status">准备中...</p>
+    <a id="backLink" href="#">返回</a>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const targetPage = urlParams.get('target') || '/#/fmc/monitor/layout/RW3F';
+    const username = urlParams.get('username') || '66000424';
+    const password = urlParams.get('password') || '1';
+    const backUrl = urlParams.get('back') || window.opener?.location?.href || 'http://localhost:80';
+
+  // Tomcat 服务器地址（直接访问，不走代理）
+  const TOMCAT_BASE = 'http://localhost:8089'
+
+  async function login() {
+    try {
+      document.getElementById('status').textContent = '正在验证身份...';
+
+      // 通过 Vite 代理请求 Tomcat（避免跨域，Cookie 设置在 localhost:80）
+      const response = await fetch('/angular-api/api/bidm/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({
+          method: 'authenticate',
+          params: {
+            encrypt: false,
+            username: username,
+            password: password
+          }
+        })
+      });
+
+        const data = await response.json();
+        console.log('登录结果:', data);
+
+        if (data.code === '0' && data.params && data.params.token) {
+          document.getElementById('title').textContent = '登录成功!';
+          document.getElementById('title').className = 'success';
+          document.getElementById('status').textContent = 'Cookie 已设置，3秒后返回...';
+
+          setTimeout(() => {
+            // 返回 Vue 页面，带上登录成功标志
+            const returnUrl = new URL(backUrl);
+            returnUrl.searchParams.set('angularLogin', 'success');
+            window.location.href = returnUrl.toString();
+          }, 1500);
+        } else {
+          document.getElementById('title').textContent = '登录失败';
+          document.getElementById('title').className = 'error';
+          document.getElementById('status').textContent = '请检查用户名密码，或返回重试';
+        }
+      } catch (error) {
+        console.error('登录错误:', error);
+        document.getElementById('title').textContent = '连接失败';
+        document.getElementById('title').className = 'error';
+        document.getElementById('status').textContent = error.message;
+      }
+    }
+
+    // 返回链接
+    document.getElementById('backLink').href = backUrl;
+
+    login();
+  </script>
+</body>
+</html>
